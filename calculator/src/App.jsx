@@ -5,7 +5,7 @@ import './App.css' // Para estilos globales si los necesitas
 function App () {
   return (
     <div className='App'>
-      <Calculator />
+        <Calculator />
     </div>
   )
 }

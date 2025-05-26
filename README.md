@@ -30,7 +30,6 @@ Una calculadora funcional construida con React, Vite y Vitest.
 ## Scripts disponibles
 
 - `bun dev`: Inicia el servidor de desarrollo
-- `bun build`: Crea la versión de producción
 - `bun test`: Ejecuta los tests
 - `bun storybook`: Inicia Storybook
 - `bun lint`: Ejecuta el linter

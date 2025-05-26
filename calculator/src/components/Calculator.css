@@ -1,0 +1,21 @@
+/* para Calculator */
+.calculator {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #e0e0e0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 320px; /* Ancho fijo para un diseño consistente */
+  margin: 20px auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.button.zero {
+  grid-column: span 2; /* El botón cero ocupa dos columnas */
+}

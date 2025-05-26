@@ -1,0 +1,17 @@
+/* para Display */
+.display {
+  background-color: #333;
+  color: white;
+  font-size: 3em;
+  padding: 20px;
+  text-align: right;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden; /* Para manejar números largos */
+  white-space: nowrap; /* Para evitar saltos de línea */
+  text-overflow: clip; /* Asegura que el texto se corta sin elipsis */
+  height: 60px; /* Altura fija para evitar cambios de layout */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

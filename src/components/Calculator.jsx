@@ -1,4 +1,5 @@
 // src/components/Calculator.jsx
+import React from 'react';
 import Display from './Display'
 import Button from './Button'
 import useCalculator from '../hooks/useCalculator'

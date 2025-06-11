@@ -1,0 +1,3 @@
+[test]
+setup = ["./src/test/setupTests.js"]  # Ruta al archivo de configuración
+preload = ["./src/test/setupTests.js"]
